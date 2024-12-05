@@ -1,0 +1,31 @@
+//w3 school -- có thể tham khảo đây
+1 số thẻ cơ bản
+- <h1> -> <h6> // title
+- <p> // đoạn văn
+- <ul> liệt kê (dấu chấm)
+- <ol> liệt kê (số thứ tự)
+- <li> liệt kê bên trong
+- <img> ảnh
+- <br> xuống dòng // br ko cần đóng
+- <blockquote> trích dẫn 1 câu nói
+- <u> gạch chân
+- <i> in nghiêng
+- <b> in đậm
+- <a> đường link
+- <hr>
+
+cách thiết kế 1 trang web 
+- xác định bố cục //chia ra đã rồi mới code
+    + trong <body> tab 1 thẻ <main>
+    + trong main xác định các phần chính, mỗi phần là 1 <section>
+    + trong <section> xác định các <div> 
+
+
+
+CSS
+thẻ <style>: tên thẻ { thuộc tính }
+1 số thẻ:
+- color: màu chữ
+- background-color: màu nền 
+- width: chiều rộng
+- height: chiều cao
