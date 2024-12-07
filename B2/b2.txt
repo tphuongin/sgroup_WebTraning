@@ -1,0 +1,13 @@
+1 folder chỉ đc add 1 link github (file con bên trong theo folder cha)
+nếu đã tồn tại link github thì vào tìm file .git sau đó xóa đi thì sẽ tạo được link github khác
+nhớ đứng đúng vị trí để đẩy file lên github 
+- deploy
+- nhánh
+    + rebase/ pull 
+- phím tắt
+    + ! tab: tạo ra cấu trúc html
+    + alt + shift + mũi tên  : tạo hành giống trước
+    + alt + click nhiều chỗ: sửa nhiều nơi
+- extension
+    + auto close tag
+    + auto rename
