@@ -29,3 +29,4 @@ thẻ <style>: tên thẻ { thuộc tính }
 - background-color: màu nền 
 - width: chiều rộng
 - height: chiều cao
+- alt: hiển thị khi ảnh bị lỗi

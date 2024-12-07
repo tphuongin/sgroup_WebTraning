@@ -1,0 +1,15 @@
+
+.h{
+    color:brown;
+}
+#k{
+    color:blue;
+}
+span{
+    display:block;
+    width: 100px;      /* chỉ block mới cho, inline ko cho */
+    padding: 20px;
+    border: 2px, solid, pink;
+    margin: 2px; /* khoảng cách đối tượng này với đối tượng khác */
+    /* margin-top: 2px; chỉ bên trên */
+}

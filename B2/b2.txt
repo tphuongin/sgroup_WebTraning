@@ -2,12 +2,56 @@
 nếu đã tồn tại link github thì vào tìm file .git sau đó xóa đi thì sẽ tạo được link github khác
 nhớ đứng đúng vị trí để đẩy file lên github 
 - deploy
+    + tạo 1 repo mới hoặc nhánh mới
 - nhánh
     + rebase/ pull 
+    + fetch : chỉ kéo về repo, pull: kéo về working area luôn
+    khuyến khích dùng rebase hơn merge trực tiếp
+    git pull origin ... là pull đúng nhánh đó
+- push
+    -f: bắt ép đẩy lên
 - phím tắt
     + ! tab: tạo ra cấu trúc html
     + alt + shift + mũi tên  : tạo hành giống trước
     + alt + click nhiều chỗ: sửa nhiều nơi
+    + p.header tab: tạo <p> có class header
 - extension
     + auto close tag
     + auto rename
+
+
+css: 
+- có 3 cách
+    + inline: ngay trong thẻ cần định dạng, ko khuyến khích dùng
+    + internal: trong thẻ <head> 
+    + external: tạo 1 style.css khác 
+- Đặt tên:
+    + Class(.tên class)
+    + id (#tên id)
+    cùng cấp độ, cái nào viết sau thì được nhận
+- selector: 
+    + .class
+    + .class.class (ko có dấu cách ở giữa) : 2 class ngang nhau
+    + .class1 .class2(có dấu cách ở giữa) : class2 nằm trong class1
+    + * : lấy tất cả thẻ
+    + lấy tên thẻ vd: div
+    + element.class
+    + element, element : cho nhiều đối tượng 
+    + element element : như class có dấu cách
+    ...(xem thêm với keyword là css selector)
+- Độ ưu tiên
+    + important ưu tiên hơn cả inline
+    + chọn càng cụ thể thì càng được ưu tiên
+    + inline - id - class - thẻ (theo thứ tự giảm dần)
+       1000   100    10     1   (điểm)
+- thẻ
+    + <span>: thẻ inline (chiều rộng đúng bằng nội dung)
+    + <p>: block (nguyên cái chiều rộng của thẻ (cha vd thẻ body)) 
+- box model
+    padding - border - margin
+    viết tắt vd padding: 60 20 60 20 ( theo chiều kim đồng hồ), 60 20 (trên dưới, trái phải), 60 20 60 (trên, trái phải, dưới)
+- đơn vị đo
+    + px
+    + % (lấy của cha)
+    + rem (lấy fontsize trong html làm chuẩn)
+    + em (lấy fontsize của cha làm chuẩn)
