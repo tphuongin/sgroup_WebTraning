@@ -1,0 +1,26 @@
+phím tắt:
+    + dùng alt + mũi tên để chuyển dòng đó điđi
+dùng font, font awesome (icon)
+iconify, tải extension này để hiện icon
+display:
+    block: cả hàng
+    inline: chỉ chiếm đúng độ dài phần tử, cùng nằm 1 hàng
+display-flex: ép những thẻ con liền kề thành 1 hàng, cùng độ dài với nội dung
+flex-direction: chỉnh hướng (chiều trục sẽ quay ...)
+flex-box:
+    trục ngang: main
+        justify content
+    trục dọc: crosscross
+        align item 
+    item: 
+chú ý:
+    + width height ko áp dụng với inlineinline
+
+
+https://flexboxfroggy.com/
+
+
+
+
+btvn hoanf thanh 
+https://img.notionusercontent.com/s3/prod-files-secure%2Fc7ad2d91-c160-485c-82e3-4caf3342298d%2Fc7765e8a-2179-4d22-8e29-43663e6e93e4%2Fimage.png/size/w=2000?exp=1734092255&sig=tTdH0JIaklrTNcuosDSOP5YOWsWhkcDJcCCoBBIN0Z8

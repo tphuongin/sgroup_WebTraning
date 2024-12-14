@@ -30,3 +30,5 @@ thẻ <style>: tên thẻ { thuộc tính }
 - width: chiều rộng
 - height: chiều cao
 - alt: hiển thị khi ảnh bị lỗi
+
+liên kết thẻ css với html: <link rel="stylesheet" href="style.css">
