@@ -1,0 +1,18 @@
+Project 
+    + làm macbook thì 1/3 thôi
+    + làm ko cần giống ảnh nhưng mà tất cả cái khác phải giống, ví dụ như hover vô, rồi bố cục ...
+
+Transition (thường 0.3 - 0.5 sẽ đẹp)
+    thường sẽ dùng ease, ease-in-out
+
+transform
+
+Animation
+    + hover
+    + keyframe
+    + from - t0
+    + 0% - 25% - 50% ....
+    + fill - modemode
+Bài tập
+    + chọn 1 cái bên set1, 1 cái bên set2
+

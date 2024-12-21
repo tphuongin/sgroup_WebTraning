@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    max-width: 50%;
+    margin:auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 9090;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#letterj {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    line-height: 30px; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa theo chiều ngang */
+    vertical-align: middle; /* Căn giữa hộp đen theo dòng */
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.logo{
+    color: rgb(224, 108, 128);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.image{
+    max-width: 80%;
+}
+
+#hithere{
+    font-weight: 9000;
+    font-size: 70%;
+    margin-top: 10px;
+}
+
+#im{
+    font-weight: 750;
+    font-size: 150%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.number{
+    font-weight: 750;
+    font-size: 150%;
+    color: rgb(224, 108, 128);
+}
+
+.border-bottom{
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 750;
+    font-size: 80%;
+    border-bottom: 2px solid rgb(224, 108, 128);
+}
+
+.download{
+    display: flex;
+    justify-self: center;
+    font-size: 80%;
+    background-color:white;
+    color: rgb(224, 108, 128);
+    border: 2px solid rgb(224, 108, 128);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.boder{
+    font-size: 80%;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-flex > div {
+    flex: 1; /* Mỗi div sẽ chiếm 1 phần không gian bằng nhau */
+}
+
+.smallbold{
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.bigthin{
+    font-size: 140%;
+    margin: 0;
+}
+
+.mediumbold{
+    font-size: 100%;
+    font-weight: bold;
+
+}

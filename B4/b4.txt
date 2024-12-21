@@ -1,0 +1,12 @@
+flex-shrink: 
+flex-grow: 
+grid: thường ít dùng, tách ra thành các file thì hơn
+Position:
+    + relative
+    + static: 
+    + absolute 
+    + fixed
+    + sticky
+pseudo: before, after, hover, active, visited, nth-child
+box: (Css shadow)
+

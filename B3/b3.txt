@@ -1,5 +1,5 @@
 phím tắt:
-    + dùng alt + mũi tên để chuyển dòng đó điđi
+    + dùng alt + mũi tên để chuyển dòng đó đi
 dùng font, font awesome (icon)
 iconify, tải extension này để hiện icon
 display:
@@ -14,7 +14,7 @@ flex-box:
         align item 
     item: 
 chú ý:
-    + width height ko áp dụng với inlineinline
+    + width height ko áp dụng với inline
 
 
 https://flexboxfroggy.com/
