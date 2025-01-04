@@ -1,0 +1,45 @@
+cleanCode: đọc 
+
+const nên viết hoa vd const MAX
+
+./ cùng cấp
+../ thoát 1 cấp 
+- đồng bộ: dòng trước chạy xong mới đến dòng sau
+- bất đồng bộ: vẫn chạy từ trên xuống dưới nhưng có thể dòng trước chạy chưa xong, dòng sau vẫn bắt đầu chạy. 
+- biên dịch: kiểm tra trước 1 lần, đúng thì mới chạy
+- thông dịch: chạy đến khi lỗi mới ngừng 
+
+* không có liên quan gì với java 
+search JS version để xem được các phiên bản
+JAVA SCRIPT
+- ngôn ngữ thông dịch
+- bất đồng bộ 
+- giúp cho trang web hoạt động (các sự kiện nhấn chuột...)
+- nhúng java script 
+    + inline: onclick,on mouse downdown,on mouse up
+    + internal: <script> </script> có thể bỏ trong head hoặc bodybody
+    + external: <script src="duongdan.js"> 
+- khai báo 
+    + const 
+    + var 
+    + let 
+- toán tử
+- Data type
+    + string
+    + number
+    + boolean
+    + null
+    + NaN (not a number)
+    + undefined
+    + array
+    + object
+    + ...
+// array, object: biến reference
+// string, number, boolean... biến nguyên thủy 
+typeof: return kiểu dữ liệu  
+null với undefined khác nhau như thế nào
+
+- operator
+    ==: so sánh giá trị 
+    ===: so sánh kiểu dữ liệu 
+    Ternary operator

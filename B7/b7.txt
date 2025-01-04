@@ -1,0 +1,5 @@
+Responsive
+- linh hoạt theo từng kích thước khác nhau
+@Media querries
+thay đổi ở những điểm breakpoint
+github preview
