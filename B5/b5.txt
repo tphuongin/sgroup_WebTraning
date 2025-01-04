@@ -11,7 +11,7 @@ Animation
     + hover
     + keyframe
     + from - t0
-    + 0% - 25% - 50% ....
+    + 0% - 25% - 50% ...
     + fill - modemode
 Bài tập
     + chọn 1 cái bên set1, 1 cái bên set2
