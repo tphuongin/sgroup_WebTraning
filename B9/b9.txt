@@ -1,0 +1,3 @@
+function
+thường arr sẽ khai báo const
+
