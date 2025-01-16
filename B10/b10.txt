@@ -1,0 +1,12 @@
+Object Math xử lí toán
+Object Date
+Cách truyền string ${}
+date fns
+DOM document object model
+document.
+thay đổi ...
+
+bt về nhà
+sử dụng pokemon api
+cho mảng object tên, hình ảnh...
+nhấn vào thì đổi , đổi liên tục theo vòng

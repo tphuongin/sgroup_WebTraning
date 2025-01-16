@@ -1,0 +1,29 @@
+
+img{
+    width: 50%;
+    border-style:ridge;
+    border-color: pink;
+}
+container{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+button{
+    width:max-content;
+    height:max-content;
+    background-color: pink;
+    border:1px solid rgb(196, 101, 101);
+    border-radius: 6%;
+}
+
+#name{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(216, 105, 123);
+}
