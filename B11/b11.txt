@@ -1,0 +1,21 @@
+hoisting
+    cơ chế đưa biến lên trên cùng scope hiện tại
+Truthy | Falsy
+    kiểu
+For loop
+
+phân biệt
+var    :    let
+
+Advanced
+    callback: (ứng dụng ...)
+    Asynchronous 
+    setTimeOut(,)
+    setInterval()
+    clear()
+
+bài tập: tạo nút add pokemon (chỗ pokemon api) , nhấn add hoặc 5S sẽ add
+    nhập số pokemon
+    định nghĩa mảng pokemon, sau đó add số pokemon tương ứng
+
+wow js
