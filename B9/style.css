@@ -1,0 +1,27 @@
+h2{
+    color:rgb(237, 154, 168);
+    text-align: center;
+}
+button{
+    width: auto;
+    height: fit-content;
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+body{
+    width: 60%;
+    margin: auto;
+}
+container {
+    display: block;
+    margin-top: 5%;          
+    text-align: center;
+    border: 1px dashed pink;
+}
+
+.show{
+    color:rgb(196, 96, 113);
+}
+

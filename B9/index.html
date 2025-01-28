@@ -4,8 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./main.js" ></script>
-    <title>Document</title>
+    <title>JavaScript Basic</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h2 class="j">JAVASCRIPT BASIC</h2>
+    <div>
+        <container >
+            <span>Date and time</span>
+            <span><button onclick="viewDateTime()">Show</button></span>
+            <span><button onclick="hide()">Hide</button></span>
+            <div class="show" id="showDateTime"></div>
+        </container>
+
+        <container >
+            <span>Full Date</span>
+            <span><button onclick="showDate()">Show</button></span>
+            <span><button onclick="hideDate()">Hide</button></span>
+            <div class="show" id="showDate"></div>
+        </container>
+
+        <container >
+            <span>Check increased numbers</span>
+            <form>
+                <label for="num">Enter number</label>
+                <input type="number" id="num" >
+                <span><button onclick="checkIncrease(event)">Enter</button></span>
+                <span><button onclick="clearInput(event)">Clear</button></span>
+                <div class="show" id="showResult"></div>
+            </form>
+        </container>
+
+        <container >
+            <span>Change string, next charater</span>
+            <form>
+                <label for="text">Enter string</label>
+                <input type="text" id="text" >
+                <span><button onclick="replace(event)">Enter</button></span>
+                <span><button onclick="clearString(event)">Clear</button></span>
+                <div class="show" id="showNewString"></div>
+            </form>
+        </container>
+
+        <container >
+            <span>Create center string</span>
+            <form>
+                <label for="textString">Enter string</label>
+                <input type="text" id="textString" >
+                <span><button onclick="create(event)">Enter</button></span>
+                <span><button onclick="clearCenterString(event)">Clear</button></span>
+                <div class="show" id="showCenterString"></div>
+            </form>
+        </container>
+
+        <container >
+            <span>Find letter appears most times</span>
+            <form>
+                <label for="string">Enter string</label>
+                <input type="text" id="string" >
+                <span><button onclick="checkMaxRepeat(event)">Enter</button></span>
+                <span><button onclick="clearstring(event)">Clear</button></span>
+                <div class="show" id="showLetter"></div>
+            </form>
+        </container>
+        
+        <container>
+            <span>Find 'java' in string</span>
+            <form>
+                <label for="String">Enter string</label>
+                <input type="text" id="String" >
+                <span><button onclick="isHas(event)">Enter</button></span>
+                <span><button onclick="clearString(event)">Clear</button></span>
+                <div class="show" id="show_Result"></div>
+            </form>
+        </container>
+
+        <container>
+            <span>Number to text of month</span>
+            <form>
+                <label for="numMonth">Enter number</label>
+                <input type="number" id="numMonth">
+                <span><button onclick="monthNumber(event)">Enter</button></span>
+                <span><button type="button" onclick="clearShowMonth()">Clear</button></span>
+                <div class="show" id="showMonth"></div>
+            </form>
+        </container>
+
+        <container >
+            <span>Find longest word of string</span>
+            <form>
+                <label for="text">Enter string</label>
+                <input type="text" id="theString" >
+                <span><button onclick="findMaxWord(event)">Enter</button></span>
+                <span><button onclick="clearString(event)">Clear</button></span>
+                <div class="show" id="showLongestWord"></div>
+            </form>
+        </container>
+
+        <container >
+            <span>Find prime number between</span>
+            <form>
+                <div>
+                    <label for="a">Input a</label>
+                    <input type="number" id="a" >
+                </div>
+                <div>
+                    <label for="b">Input b</label>
+                    <input type="number" id="b" >
+                </div>
+                <div>
+                    <span><button onclick="primeNumber(event)">Enter</button></span>
+                    <span><button type="button" onclick="clearPrime()">Clear</button></span>
+                </div>
+                <div class="show" id="showPrime"></div>
+            </form>
+        </container>
+    </div>
 </body>
 </html>
